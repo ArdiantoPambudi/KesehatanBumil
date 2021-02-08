@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.Login_activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/atas"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="88dp"
+            android:fontFamily="sans-serif"
+            android:text="Moms"
+            android:textColor="#249CEC"
+            android:textSize="40dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="40dp"
+            android:text="Telepon"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:inputType="phone"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Nama Lengkap"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/color_button_blue"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Or"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Register ?"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

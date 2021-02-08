@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Moms</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="title_home">Home</string>
+    <string name="search">Search</string>
+    <string name="title_notif">Hasil Pemeriksaan</string>
+    <string name="title_profile">Profile</string>
+    <string name="eror_msg_user">Masukkan Telepon</string>
+    <string name="eror_msg_pass">Masukkan Nama</string>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UpdateDataJaninActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Update Data Pemeriksaan"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/id"
+    android:textColor="#fff"
+    android:layout_height="wrap_content">
+
+</TextView>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="id Moms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etKodeperiksa"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="Tanggal Periksa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="50dp">
+
+
+
+        <TextView
+            android:id="@+id/etTglperiksa"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="YAYA"
+            android:textColor="#000"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"/>
+
+
+
+            <ImageView
+                android:padding="2dp"
+                android:id="@+id/kalenderre"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_calendar"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+        <TextView
+            android:text="Berat Badan/Kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etBeratbadan"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+
+        <TextView
+            android:text="Tekanan Darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etTekananDarah"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="Tinggi Fundus Uteri/cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etTFU"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="Denyut Jantung Janin / X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etDjj"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="LILA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etLila"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="Keluhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etKeluhanupdate"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+        <TextView
+            android:text="Kondisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etKondisi"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnUpdatePeriksa"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/color_button_pink"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Update"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

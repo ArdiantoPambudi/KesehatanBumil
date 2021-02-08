@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailBayiMainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvBB"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Minggu"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvTD"
+            android:layout_width="match_parent"
+            android:text="Perkembangan ini sangat baik"
+            android:textSize="15dp"
+            android:textColor="#F44336"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvTF"
+            android:layout_width="match_parent"
+            android:text="Perkembangan ini sangat baik"
+            android:textSize="15dp"
+            android:textColor="#3F51B5"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+    </LinearLayout>
+</RelativeLayout>

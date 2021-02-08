@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailListGetJaninActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnEditJanin"
+            android:text="UPDATE"
+            android:padding="5dp"
+            android:background="#29E630"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="DELETE"
+            android:id="@+id/btnHapusJanin"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="#F44336"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="UPDATE FOTO"
+            android:id="@+id/btnEditFotoJanin"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="#3682F4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDetailJanin"
+        android:src="@drawable/gambar4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+
+    <ImageView
+        android:id="@+id/imgEditfoto"
+        android:layout_width="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_captcha"
+        />
+<TextView
+    android:id="@+id/idJanin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"/>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur Kehamilan"
+            android:layout_marginTop="140dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvUmurhamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perkembangan"
+
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvperkembangan"
+            android:justificationMode="inter_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perkembangan"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahDataKeluhanActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Input Data Keluhan"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Nama Keluhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etKeluhan"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <TextView
+            android:text="Penyebab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/etPenyebab"
+            android:layout_width="390dp"
+            android:layout_height="200dp">
+
+        </EditText>
+        <TextView
+            android:text="Pengobatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etPengobatan"
+            android:gravity="top"
+            android:layout_width="390dp"
+            android:layout_height="200dp">
+
+        </EditText>
+        <TextView
+            android:text="Gambar Keluhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvimagekeluhan"
+            android:text=""
+            android:layout_width="240dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+            <ImageView
+                android:id="@+id/imgKeluhan"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image_black_24dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#D5D5D5"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnsimpankeluhan"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginLeft="150dp"
+            android:text="SIMPAN"
+            android:background="@drawable/color_button_pink"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imggg"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

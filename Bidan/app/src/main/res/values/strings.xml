@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bidan Any Rusmiyanti</string>
+    <string name="eror_msg_user">Masukkan Nama Bidan</string>
+    <string name="eror_msg_pass">Masukkan Password</string>
+    <string name="user">Person</string>
+
+    <string-array name="list_keguguran">
+        <item> Pernah </item>
+        <item> Tidak </item>
+    </string-array>
+    <string-array name="jumlah_anak">
+        <item> KeSatu </item>
+        <item> KeDua </item>
+        <item> KeTiga </item>
+        <item> KeEmpat </item>
+        <item> KeLima </item>
+        <item> KeEnam </item>
+    </string-array>
+    <string-array name="golongan_darah">
+        <item> A </item>
+        <item> B </item>
+        <item> AB </item>
+        <item> O </item>
+    </string-array>
+</resources>

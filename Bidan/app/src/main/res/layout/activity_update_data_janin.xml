@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDataJaninActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Update Data Janin"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <TextView-->
+<!--            android:text="Id JANIN"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        </TextView>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/etupdateId"-->
+<!--            android:layout_width="390dp"-->
+<!--            android:layout_height="50dp">-->
+
+<!--        </EditText>-->
+        <TextView
+            android:text="Umur Kehamilan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etupdateUmurr"
+            android:layout_width="390dp"
+            android:layout_height="50dp">
+
+        </EditText>
+
+        <TextView
+            android:text="Perkembangan Janin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etupdatePerkembangan"
+            android:layout_width="390dp"
+            android:gravity="top"
+            android:layout_height="200dp">
+
+        </EditText>
+
+
+
+        <Button
+            android:id="@+id/btnupdateJanin"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginLeft="150dp"
+            android:text="UPDATE"
+            android:background="#7CC724"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

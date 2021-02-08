@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#249CEC</color>
+    <color name="colorPrimaryDark">#0B5D94</color>
+    <color name="colorAccent">#249CEC</color>
+    <color name="colorIbu">#E91E63</color>
+    <color name="coloribudark">#A21043</color>
+    <color name="colorBayi">#1EC725</color>
+    <color name="colorbayidark">#0A8D10</color>
+</resources>

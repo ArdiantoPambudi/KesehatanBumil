@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_gravity="center"
+        android:layout_marginLeft="190dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="fill_parent"
+        android:justificationMode="inter_word"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:padding="5dp" />/>
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/iv_icon"
+        android:layout_margin="5dp"
+        android:background="@drawable/color_button_green"
+        android:text=" Tutup "
+        android:textColor="#fff" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info Aplikasi Moms"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#03A9F4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Aplikasi ini Digunakan oleh ibu hamil"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Terdapat informasi edukasi ibu hamil berupa keluhan yang terjadi saat masa kehamilan dan perkembangan bayi"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Terdapat fitur cek kesehatan berupa berat badan,tinggi fundus uteri,tekanan darah,denyut jantung janin,lingkar lengan atas"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Terdapat Laporan Hasil Pemeriksaan"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</RelativeLayout>

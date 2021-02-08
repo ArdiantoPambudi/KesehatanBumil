@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegisterIbuHamilActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idmomsup"/>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="10dp"
+            android:text="Nama Lengkap"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etupdateNamalengkap"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Nama Suami"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etupdateNamasuami"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Tinggi Badan"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etupdateTinggi"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Tanggal Lahir"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateTgl"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="194dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:padding="2dp"
+                android:id="@+id/kalenderup"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_calendar"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Telepon"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etupdatetelepon"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Alamat"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/etupdatealamat"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#249CEC"
+
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="HPHT"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateHpht"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="194dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:padding="2dp"
+                android:id="@+id/kalenderupd"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_calendar"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="HPL"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateHpl"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="194dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:padding="2dp"
+                android:id="@+id/kalenderupda"
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_calendar"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Keguguran"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateKeguguran"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinKeguguranUp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:entries="@array/list_keguguran">
+
+            </Spinner>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Kelahiran Anak Ke"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateKelahiran"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinKelahiranUp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:entries="@array/jumlah_anak">
+
+            </Spinner>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:text="Keguguran"
+            android:textColor="#8B8080"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvupdateGolonganDarah"
+                    android:layout_marginTop="2dp"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:layout_width="145dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#249CEC"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <Spinner
+                android:id="@+id/spinGolonganUp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:entries="@array/golongan_darah">
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/btnUpdateibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/color_button_pink"
+            android:text="Update"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

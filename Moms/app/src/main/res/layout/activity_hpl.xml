@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HPLActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Hitung HPL"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Contoh Tanggal : 12"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tglhaid"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_height="60dp"
+            android:hint="Masukan tgl terakhir haid"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contoh Bulan : 08"
+                android:layout_height="wrap_content"/>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/blnhaid"
+            android:inputType="number"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:hint="Masukan bulan terakhir haid"
+            android:textColor="#000000"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contoh Tahun : 2020"
+                android:layout_height="wrap_content"/>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/thnhaid"
+            android:layout_width="300dp"
+            android:inputType="number"
+            android:layout_height="60dp"
+            android:hint="Masukan tahun terakhir haid"
+            android:textColor="#000000"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnHitung"
+            android:background="@drawable/color_button_blue"
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Hitung" />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTglhaid"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#FF0303"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtBlnhaid"
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:textColor="#FF0303"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtThnhaid"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textColor="#FF0303"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".activity.CekKesehatanActivity">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Berat Badan"
+                    android:textColor="#8B8080"
+                    android:textSize="16dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="Tinggi Badan"
+                    android:textColor="#8B8080"
+                    android:textSize="16dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/etberat"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC" />
+
+                <EditText
+                    android:id="@+id/ettinggibadan"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC" />
+
+                <Button
+                    android:id="@+id/btnhitungImt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/color_button_blue"
+                    android:text="Hitung"
+                    android:textColor="#fff">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hasilImt"
+                    android:layout_width="135dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/border"
+                    android:hint="Hasil IMT"
+                    android:padding="4dp"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnCekImt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="148dp"
+                    android:background="@drawable/color_button_green"
+                    android:text="Cek">
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tekanan Darah (mmHG)"
+                android:textColor="#8B8080"
+                android:textSize="16dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sistolik" />
+                <TextView
+                    android:layout_marginLeft="70dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diastolik" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/etTekanandarah"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/etTekanandarah1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnCektekananDarah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="75dp"
+                    android:background="@drawable/color_button_green"
+                    android:text="Cek">
+
+                </Button>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi Fundus Uteri / cm"
+                android:textColor="#8B8080"
+                android:textSize="16dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/etTinggifundus"
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border"
+                        android:inputType="number"
+                        android:padding="4dp"
+                        android:textColor="#249CEC"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Umur Kehamilan/Minggu"
+                        android:textColor="#8B8080"
+                        android:textSize="16dp">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/etUmur"
+                        android:layout_width="135dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border"
+                        android:inputType="number"
+                        android:padding="4dp"
+                        android:textColor="#249CEC"
+
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCektinggifundusuteri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="105dp"
+                    android:background="@drawable/color_button_green"
+                    android:text="Cek">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Jarak antara titik simfisis pubis dan fundus uteri yang biasanya dilakukan oleh dokter atau bidan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denyut Jantung Janin Kali / Menit"
+                android:textColor="#8B8080"
+                android:textSize="16dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/etdenyutjantungjanin"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC" />
+
+                <Button
+                    android:id="@+id/btnCekdenyutJantungjanin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="148dp"
+                    android:background="@drawable/color_button_green"
+                    android:text="Cek">
+
+                </Button>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lingkar Lengan Atas / cm"
+                android:textColor="#8B8080"
+                android:textSize="16dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/etLila"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border"
+                    android:inputType="number"
+                    android:padding="4dp"
+                    android:textColor="#249CEC"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnCekLingkarlenganatas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="148dp"
+                    android:background="@drawable/color_button_green"
+                    android:padding="4dp"
+                    android:text="Cek">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LiLA adalah cara ukur untuk mengetahui risiko Kekurangan Energi Kronis (KEK) pada seorang wanita dan ibu hamil." />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+</RelativeLayout>

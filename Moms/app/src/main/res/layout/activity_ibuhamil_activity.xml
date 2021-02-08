@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".activity.IbuHamilActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvKeluhan"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#CDDC39"
+            app:cardCornerRadius="8dp">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_pregnancy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keluhan Ibu Hamil"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:id="@+id/cvJanin"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#3F51B5"
+                app:cardCornerRadius="8dp">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/ic_baby" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Perkembangan Janin"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
